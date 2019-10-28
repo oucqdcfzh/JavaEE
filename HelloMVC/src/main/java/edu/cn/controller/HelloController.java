@@ -3,6 +3,9 @@ package edu.cn.controller;
 import edu.cn.User;
 import edu.cn.pojo.MoviePerformer;
 import edu.cn.service.MoviePerformerService;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -20,6 +23,7 @@ import java.util.List;
 
 @Controller
 public class HelloController {
+    private static Logger logger = LogManager.getLogger(LogManager.ROOT_LOGGER_NAME);
 
     @Autowired
     private MoviePerformerService moviePerformerServiceImpl;
@@ -27,8 +31,31 @@ public class HelloController {
     @RequestMapping(value = "/performer/{name}",method = RequestMethod.GET)
     @ResponseBody
     public List<MoviePerformer> getMoviePerformers(@PathVariable String name){
+        logger.trace("trace message");
+        logger.debug("debug message");
+        logger.info("info message");
+        logger.warn("warn message");
+        logger.error("error message");
+        logger.fatal("fatal message");
+        System.out.println("Hello World!");
+
         return moviePerformerServiceImpl.queryByName(name);
     }
+
+
+    @RequestMapping(value = "/performer",method = RequestMethod.POST)
+    @ResponseBody
+    public int insertPerformer(@RequestBody  MoviePerformer moviePerformer){
+        System.out.println(moviePerformer.getMovieTitle()+" "+moviePerformer.getName());
+        return moviePerformerServiceImpl.insertMoviePerformer(moviePerformer);
+    }
+
+    @RequestMapping(value = "/performer",method = RequestMethod.GET)
+    @ResponseBody
+    public List<MoviePerformer> getMoviePerformers(){
+        return moviePerformerServiceImpl.queryAll();
+    }
+
 
     @RequestMapping(value = "/hel",method = RequestMethod.GET)
     @ResponseBody

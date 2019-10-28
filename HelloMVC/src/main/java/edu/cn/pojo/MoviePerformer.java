@@ -14,7 +14,9 @@ public class MoviePerformer {
     private Integer id;
     private String movieTitle;
     private String name;
-    private String representive;
+    private String position;
+    private String representative;
+
 
 
 }

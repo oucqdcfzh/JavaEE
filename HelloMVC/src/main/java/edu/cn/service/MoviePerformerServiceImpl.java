@@ -23,4 +23,14 @@ public class MoviePerformerServiceImpl implements MoviePerformerService{
     public List<MoviePerformer> queryByName(String name) {
         return moviePerformerDAOImpl.queryByName(name);
     }
+
+    @Override
+    public List<MoviePerformer> queryAll() {
+        return moviePerformerDAOImpl.queryAll();
+    }
+
+    @Override
+    public int insertMoviePerformer(MoviePerformer moviePerformer) {
+        return moviePerformerDAOImpl.insertMoviePerformer(moviePerformer);
+    }
 }

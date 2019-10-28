@@ -20,6 +20,7 @@ import java.util.List;
 @Repository
 public class MoviePerformerDAOImpl implements MoviePerformerDAO {
 
+
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
@@ -37,6 +38,30 @@ public class MoviePerformerDAOImpl implements MoviePerformerDAO {
         return list;
     }
 
+    @Override
+    public List<MoviePerformer> queryAll() {
+        List<MoviePerformer> list = new ArrayList<MoviePerformer>();
+        String string = "select * from performer";
+        list = jdbcTemplate.query(string,new MoviePerformerRowMapper());
+        return list;
+    }
+
+    @Override
+    public int insertMoviePerformer(MoviePerformer moviePerformer) {
+        String sql = "insert into performer(movieTitle,name,position,representative) values(?,?,?,?)";
+
+        Object[] obj= new Object[]{
+                moviePerformer.getMovieTitle(),
+                moviePerformer.getName(),
+                moviePerformer.getPosition(),
+                moviePerformer.getRepresentative()
+        };
+
+        int num = jdbcTemplate.update(sql,obj);
+
+        return num;
+    }
+
     class MoviePerformerRowMapper implements RowMapper<MoviePerformer>{
 
         @Override
@@ -45,7 +70,7 @@ public class MoviePerformerDAOImpl implements MoviePerformerDAO {
             moviePerformer.setId(resultSet.getInt(1));
             moviePerformer.setMovieTitle(resultSet.getString(2));
             moviePerformer.setName(resultSet.getString(3));
-            moviePerformer.setRepresentive(resultSet.getString(5));
+            moviePerformer.setRepresentative(resultSet.getString(5));
             return moviePerformer;
         }
     }
