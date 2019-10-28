@@ -1,70 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b15124f-aea4-401a-b76f-bb25d4a8ec93" name="Default" comment="MyBatisDemo">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/.idea/libraries/Maven__org_apache_logging_log4j_log4j_web_2_9_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/resources/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/resources/log4j2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/log4j2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/lib/log4j-api-2.10.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/lib/log4j-core-2.10.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/lib/log4j-web-2.9.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/log4j2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HelloMyBatiss.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/cn/App.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/cn/mapping/BookMapping.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/cn/mapping/bookMapping.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/edu/cn/pojo/Book.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mysql.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/edu/cn/AppTest.java" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/.idea/artifacts/HelloMVC_war_exploded.xml" afterPath="$PROJECT_DIR$/../HelloMVC/.idea/artifacts/HelloMVC_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HelloMVC/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/HelloMVC.iml" afterPath="$PROJECT_DIR$/../HelloMVC/HelloMVC.iml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/pom.xml" afterPath="$PROJECT_DIR$/../HelloMVC/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/controller/HelloController.java" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/controller/HelloController.java" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/dao/MoviePerformerDAO.java" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/dao/MoviePerformerDAO.java" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/dao/MoviePerformerDAOImpl.java" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/dao/MoviePerformerDAOImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/pojo/MoviePerformer.java" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/pojo/MoviePerformer.java" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/service/MoviePerformerService.java" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/service/MoviePerformerService.java" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/service/MoviePerformerServiceImpl.java" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/service/MoviePerformerServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/resources/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/main/resources/springmvc.xml" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/resources/springmvc.xml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../HelloMVC/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/controller/HelloController.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/controller/HelloController.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/dao/MoviePerformerDAO.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/dao/MoviePerformerDAO.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/dao/MoviePerformerDAOImpl$MoviePerformerRowMapper.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/dao/MoviePerformerDAOImpl$MoviePerformerRowMapper.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/dao/MoviePerformerDAOImpl.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/dao/MoviePerformerDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/pojo/MoviePerformer.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/pojo/MoviePerformer.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/service/MoviePerformerService.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/service/MoviePerformerService.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/service/MoviePerformerServiceImpl.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/edu/cn/service/MoviePerformerServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/springmvc.xml" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/classes/springmvc.xml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../HelloMVC/target/HelloMVC/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/controller/HelloController.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/controller/HelloController.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/dao/MoviePerformerDAO.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/dao/MoviePerformerDAO.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/dao/MoviePerformerDAOImpl$MoviePerformerRowMapper.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/dao/MoviePerformerDAOImpl$MoviePerformerRowMapper.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/dao/MoviePerformerDAOImpl.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/dao/MoviePerformerDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/pojo/MoviePerformer.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/pojo/MoviePerformer.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/service/MoviePerformerService.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/service/MoviePerformerService.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/service/MoviePerformerServiceImpl.class" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/edu/cn/service/MoviePerformerServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/../HelloMVC/target/classes/springmvc.xml" afterPath="$PROJECT_DIR$/../HelloMVC/target/classes/springmvc.xml" />
-    </list>
+    <list default="true" id="6b15124f-aea4-401a-b76f-bb25d4a8ec93" name="Default" comment="MyBatisDemo" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,31 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MoviePerformer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/pojo/MoviePerformer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoviePerformerServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/service/MoviePerformerServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mysql.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="69">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -142,7 +59,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1024" />
     <option name="height" value="570" />
@@ -166,7 +83,6 @@
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,6 +149,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,30 +269,30 @@
       <updated>1572231778185</updated>
       <workItem from="1572231779798" duration="179000" />
       <workItem from="1572231963781" duration="66000" />
+      <workItem from="1572232125160" duration="123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245000" />
+    <option name="totallyTimeSpent" value="368000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1024" height="570" extended-state="6" />
+    <frame x="0" y="23" width="1024" height="568" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7765487" sideWeight="0.49185336" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7765487" sideWeight="0.50814664" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10222222" sideWeight="0.50814664" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40020368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2729124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -389,6 +306,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7765487" sideWeight="0.49185336" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -416,6 +334,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/service/MoviePerformerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/pojo/MoviePerformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/cn/pojo/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -424,17 +358,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/pojo/MoviePerformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="46">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
@@ -442,8 +368,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../HelloMVC/src/main/java/edu/cn/service/MoviePerformerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="5">
           <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mysql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>
